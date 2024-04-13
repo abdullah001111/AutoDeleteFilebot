@@ -21,7 +21,7 @@ from database.database import add_user, del_user, full_userbase, present_user
 
 # add time im seconds for waitingwaiting before delete 
 # 1 minutes = 60, 2 minutes = 60×2=120, 5 minutes = 60×5=300, 15 minutes = 60×15=900
-SECONDS = int(os.getenv("SECONDS", "1080"))
+SECONDS = int(os.getenv("SECONDS", "1800"))
 
 
 
